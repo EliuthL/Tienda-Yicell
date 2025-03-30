@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon-32x32.png') }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon-16x16.png') }}">
   <link rel="manifest" href="/site.webmanifest">
-  @vite('resources/css/app.css')
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="bg-sky-700 md:bg-gradient-to-r md:from-[#5533ff] md:to-[#1bd6f7a3] text-white">
   <!-- Navbar -->
