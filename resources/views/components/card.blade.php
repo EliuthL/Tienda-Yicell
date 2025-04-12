@@ -4,7 +4,7 @@
     <h2 class="text-center text-2xl font-medium md:text-start">
       {{ $titulo }}
     </h2>
-    <p class="mt-4 text-justify text-sm leading-relaxed">
+    <p class="mt-4 text-justify text-base leading-relaxed">
       {{ $descripcion }}
     </p>
   </div>

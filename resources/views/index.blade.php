@@ -1,15 +1,15 @@
 @extends('layouts.layout')
 
 @section("contend")
-<main class="bg-white">
+<main class="">
     <div class="container w-full max-w-screen-xl mx-auto px-4 py-8 lg:pt-12">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="flex flex-col justify-center">
-                <h1 class="text-3xl md:text-6xl font-medium text-gray-800">Bienvenido a Yi-Cell</h1>
-                <p class="mt-4 text-gray-600">Somos una tienda de tecnología y articulos electrónicos con tienda física ubicada en la ciudad de Quilalí-Nueva Segovia</p>
-                <p class="mt-4 text-gray-600">Estamos ubicados frete a esquina Nort-Oeste de ferretería San José</p>
+                <h1 class="text-3xl md:text-6xl font-medium text-white">Bienvenido a Yi-Cell</h1>
+                <p class="mt-4 text-white text-lg">Somos una tienda de tecnología y articulos electrónicos con tienda física ubicada en la ciudad de Quilalí-Nueva Segovia</p>
+                <p class="mt-4 text-white text-lg">Mira nuestro catalogo en linea totalmente gratis y descubre un mundo de accesorios y dispositivos móviles que <span class="font-bold">Yi-Cell</span> te ofrece.</p>
                 <div clsass="">
-                    <button type="button" class=" my-5 text-s text-white bg-(--primary-color-btn) hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-xl px-5 py-2.5 me-2 mb-2 focus:outline-none">Ver catálogo</button>
+                    <button type="button" class="my-5 text-s text-black bg-(--primary-color-btn) hover:bg-(--primary-color-btn-hover) focus:ring-4 focus:ring-blue-300 font-medium rounded-4xl px-10 py-5 me-2 mb-2 focus:outline-none md:mt-14">Ver catálogo</button>
                 </div>
             </div>
             <div class="flex justify-center">
@@ -18,7 +18,8 @@
         </div>
     </div>
 
-    <div class="w-full max-w-screen-xl mx-auto px-4 py-6 lg:py-8 ">
+    <div class="bg-[var(--contrast)]">
+       <div class=" w-full max-w-screen-xl mx-auto px-4 py-6 lg:py-8 ">
         <div id="" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <x-card img="/img/building.svg"
                 alt="tienda"
@@ -36,7 +37,9 @@
                 descripcion="Contamos con tienda física en la ciudad de Quilalí-Nueva Segovia"/>
 
         </div>
+    </div> 
     </div>
+    
     
     <div class="bg-sky-700">
         <div class="w-full max-w-screen-xl mx-auto px-4 py-6 lg:py-8 ">
