@@ -6,6 +6,11 @@
     </h2>
     <p class="mt-4 text-justify text-base leading-relaxed">
       {{ $descripcion }}
+      <slot>
+        <!-- Default slot content goes here -->
+        <!-- This will be replaced by the content passed to the component -->
+        {{ $slot }}
+      </slot>
     </p>
   </div>
 </div>
