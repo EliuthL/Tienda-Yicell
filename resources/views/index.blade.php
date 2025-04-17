@@ -72,41 +72,40 @@
         
     </div>
 
-    <div class="">
-        <div class="container w-full max-w-screen-xl mx-auto px-4 py-8 lg:pt-12">
-            <div>
-                <h1 class="text-3xl md:text-5xl font-medium text-gray-800 text-center">
-                    hola
-                </h1>
-            </div>
-        </div>
-    </div>
-    
-    <div class="bg-sky-700">
-        <div class="w-full max-w-screen-xl mx-auto px-4 py-6 lg:py-8 ">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-                    <h2 class="text-xl font-semibold text-gray-800 ">Productos</h2>
-                    <p class="mt-2 text-gray-600 ">Ofrecemos una gran variedad de articulos electrónicos como celulares,
-                        smartwach, radios, televisores y mucho mas. Mira nuestro catálogo en linea.</p>
-                    <a href="/productos" class="mt-4 text-blue-600 hover:underline">Ir al catálogo</a>
-                </div>
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-                    <h2 class="text-xl font-semibold text-gray-800 ">Contactar vendedor</h2>
-                    <p class="mt-2 text-gray-600">Puedes contactarte con nosotros y preguntar por reparaciones o cotizar articulos de tu interes</p>
-                    <a href="/contacto" class="mt-4 text-blue-600 hover:underline">Contactar por WhatsApp</a>
-                </div>
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-                    <h2 class="text-xl font-semibold text-gray-800 ">Sobre nosotros</h2>
-                    <p class="mt-2 text-gray-600 ">Somos una tienda de tecnología y articulos electrónicos
-                        ubicado en la ciudad de Quilalí-Nueva Segovia.
-                        Puedes visitar nuestra tienda frete a esquina Nort-Oeste de ferretería San José.
+    <div class="text-black">
+        <div class="w-full max-w-screen-xl mx-auto px-4 py-8 lg:pt-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="flex flex-col justify-center">
+                    <h1 class="text-3xl md:text-5xl font-semibold text-center md:text-left mt-7">Reparaciones y Servicios</h1>
+                    <p class="mt-8 text-lg text-gray-700">
+                        Contamos con un equipo de técnicos especializados en reparaciones de celulares, tablets y computadoras.
                     </p>
-                    <a href="/nosotros" class="mt-4 text-blue-600 hover:underline">Ver más</a>
+                    <p class="mt-4 text-lg text-gray-700">
+                        Puedes contactarte con nosotros y preguntar por reparaciones o cotizar artículos de tu interés.
+                    </p>
+                    <p class="mt-4 text-lg text-gray-700">
+                        Visítanos en nuestra tienda ubicada en la ciudad de Quilalí, Nueva Segovia.
+                    </p>
+
+                    <div class="flex flex-col md:flex-row gap-4 md:gap-6 mt-8">
+                        <a href="https://www.jw.org" target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="w-full md:w-auto text-sm text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-300 font-medium rounded-xl px-6 py-3 focus:outline-none transition duration-300">
+                                Contactar
+                            </button>
+                        </a>
+                        <a href="https://maps.app.goo.gl/sBh4sECYmuJZ2WLo9" target="_blank" rel="noopener noreferrer">
+                            <button type="button" class="w-full md:w-auto text-sm text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-xl px-6 py-3 focus:outline-none transition duration-300">
+                                Cómo llegar &#8599;
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="flex justify-center">
+                    <img src="/img/local.jpeg" class="w-full max-w-md rounded-2xl shadow-lg" alt="Yi-Cell" />
                 </div>
             </div>
         </div>
     </div>
-    
 </main>
 @endsection
