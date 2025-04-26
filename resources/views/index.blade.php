@@ -9,7 +9,7 @@
                 <p class="mt-8 text-white text-lg">Somos <span class="font-bold">Yi-Cell</span> una tienda de tecnología y articulos electrónicos con tienda física ubicada en la ciudad de Quilalí-Nueva Segovia.</p>
                 <p class="mt-4 text-white text-lg">Mira nuestro catalogo en linea totalmente gratis y descubre un mundo de accesorios y dispositivos móviles que <span class="font-bold">Yi-Cell</span> te ofrece.</p>
                 <div clsass="">
-                    <a href="https:www.jw.org" target="_blank" rel="noopener noreferrer">
+                    <a href="{{url('/shop')}}" target="_blank" rel="noopener noreferrer">
                         <div class="">
                             <button type="button" class="my-5 text-s text-black bg-[#ffcd57] hover:bg-[] focus:ring-4 focus:ring-blue-300 font-medium rounded-4xl px-10 py-5 me-2 mb-2 focus:outline-none md:mt-14">
                                 Ver catálogo

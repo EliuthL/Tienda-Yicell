@@ -7,11 +7,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/apple-touch-icon.png') }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon-32x32.png') }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon-16x16.png') }}">
-  <link rel="manifest" href="/site.webmanifest">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-  <!-- <link rel="stylesheet" href="http://here_your_ip_addres:5173/resources/css/app.css" /> --> <!-- esto es para exponer los estilos cuando expones la pagina en tu red local -->
-  <!--@vite('resources/css/app.css')-->
   
 </head>
 <body class="bg-sky-700 md:bg-gradient-to-r md:from-[#5533ff] md:to-[#1bd6f7a3] text-white">
